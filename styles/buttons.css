@@ -6,14 +6,14 @@
 
 .btn-login a {
     text-decoration: none;
-    color: #212832;
+    color: var(--color-primary-8);
     font-family: "Open Sans", sans-serif;
-    font-size: 0, 9375rem;
+    font-size: 0.9375rem;
     font-weight: 600;
 }
 
 .btn-signup {
-    border: 2ps solid #212832;
+    border: 2ps solid var(--color-primary-8);
     padding: 5px 20px;
     border-radius: 7px;
     text-align: center;
@@ -23,14 +23,14 @@
 
 .btn-signup a {
     text-decoration: none;
-    color: #212832;
+    color: var(--color-primary-8);
     font-family: "Open Sans", sans-serif;
-    font-size: 0, 9375rem;
+    font-size: 0.9375rem;
     font-weight: 600;
 }
 
 .btn-find-more {
-    background-color: #F1A501;
+    background-color: var(--color-primary-7);
     padding: 15px 30px;
     border: none;
     border-radius: 7px;
@@ -39,7 +39,7 @@
 
 .btn-find-more a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--color-neutral-1);
     font-weight: 600;
 
 }
@@ -58,7 +58,7 @@
 }
 
 .btn-play-demo {
-    background-color: #DF6951;
+    background-color: var(--color-primary-9);
     padding: 10px;
     border: none;
     border-radius: 50%;
@@ -68,7 +68,7 @@
 }
 
 .btn-play-demo i {
-    color: #ffffff;
+    color: var(--color-neutral-1);
     padding: 10px;
 }
 
@@ -76,11 +76,11 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
-    color: #3E2E4D;
+    color: var(--color-neutral-6);
 }
 
 .testimonials .buttons .btn-prev, .destinations-content .destinations .buttons .slide-prev {
-    color: #BCB7C2;
+    color: var(--color-neutral-7);
 }
 
 .subscribe-content .cta .subscribe .btn-subscribe {
@@ -94,11 +94,11 @@
 .subscribe-content .cta .subscribe .btn-subscribe h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: center;
 
     /* white */
-    color: #FFFFFF;
+    color: var(--color-neutral-1);
 }
     .subscribe-content .cta .subscribe .btn-subscribe {
         transition: transform 0.2s ease;

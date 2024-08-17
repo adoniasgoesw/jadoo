@@ -14,6 +14,32 @@
 @import url(subscribe.css);
 @import url(footer.css);
 
+:root {
+    --color-primary-1: #5E6282;
+    --color-primary-2: #14183E;
+    --color-primary-3: #F0BB1F;
+    --color-primary-4: #F15A2B;
+    --color-primary-5: #006380;
+    --color-primary-6: #8A79DF;
+    --color-primary-7: #F1A501;
+    --color-primary-8: #212832;
+    --color-primary-9: #DF6951;
+    --color-primary-10: #181E4B;
+    --color-primary-11: #1E1D4C;
+    --color-neutral-1: #ffffff;
+    --color-neutral-2: #84829A;
+    --color-neutral-3: #F5F5F5;
+    --color-neutral-4: #080809;
+    --color-neutral-5: #e0e0e0;
+    --color-neutral-6: #3E2E4D;
+    --color-neutral-7: #BCB7C2;
+    --color-neutral-8: #000000;
+    --color-neutral-9: #686D77;
+    --color-neutral-10: #DFD7F9;
+    --color-neutral-11: #39425D;
+    --color-neutral-12: #E5E5E5;
+    --color-neutral-13: #F7F7F7;   
+}
 
 * {
     padding: 0;
@@ -22,7 +48,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: var(--color-neutral-1);
     position: relative;
 }
 

@@ -14,8 +14,8 @@
 }
 
 .testimonials-content .cta .description {
-    font-size: 16px;
-    color: #5E6282;
+    font-size: 1rem;
+    color: var(--color-primary-1);
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     width: 45%;
@@ -24,8 +24,8 @@
 
 .testimonials-content .cta .title {
     font-family: "Volkhov", serif;
-    font-size: 48px;
-    color: #14183E;
+    font-size: 3rem;
+    color: var(--color-primary-2);
     font-weight: 700;
     text-align: start;
     width: 80%;
@@ -39,11 +39,11 @@
 }
 
 .testimonials-content .cta .feeds .icon-test {
-    color: #39425D;
+    color: var(--color-neutral-11);
 }
 
 .testimonials-content .cta .feeds .icon-no-test {
-    color: #E5E5E5;
+    color: var(--color-neutral-12);
 }
 
 
@@ -61,12 +61,12 @@
     padding: 30px;
 
     /* white */
-    background: #FFFFFF;
+    background: var(--color-neutral-1);
     border-radius: 10px;
 
     display: flex;
     gap: 10px;
-    background-color: #ffffff;
+    background-color: var(--color-neutral-1);
     width: 100%;
 }
 
@@ -91,27 +91,27 @@
 
 
 .testimonials-content .testimonial .info .feedback {
-    font-size: 16px;
+    font-size: 1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     width: 90%;
     text-align: start;
-    color: #5E6282;
+    color: var(--color-primary-1);
 }
 
 .testimonial .info .name {
     margin-top: 5%;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    color: #5E6282;
+    color: var(--color-primary-1);
 }
 
 .testimonial .info .description {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    color: #5E6282;
+    color: var(--color-primary-1);
 }
 
 .test-one {
@@ -124,7 +124,7 @@
     right: -10%;
     bottom: -30%;
     z-index: 2;
-    border: 2px solid #F7F7F7;
+    border: 2px solid var(--color-neutral-13)F7F7F7;
 
 }
 

@@ -21,13 +21,13 @@
 .services-content .cta .description {
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
-    color: #5E6282;
+    color: var(--color-primary-1);
     font-weight: 600;
 }
 
 .services-content .cta .title {
     font-size: 3rem;
-    color: #14183E;
+    color: var(--color-primary-2);
     font-weight: 700;
     font-family: "Volkhov", serif;
 }
@@ -54,7 +54,7 @@
     width: 267px;
     height: 314px;
     justify-content: center;
-    background: #FFFFFF;
+    background: var(--color-neutral-1);
     border-radius: 36px;
     z-index: 3;
     position: relative;
@@ -90,16 +90,16 @@
 
 .category .info .title {
     font-family: "Open Sans", sans-serif;
-    font-size: 18px;
-    color: #1E1D4C;
+    font-size: 1.125rem;
+    color: var(--color-primary-11);
     font-weight: 600;
 }
 
 .category .info .description {
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
-    color: #5E6282;
+    color: var(--color-primary-1);
     width: 60%
 }
 

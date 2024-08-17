@@ -24,7 +24,7 @@
     font-size: 1.125rem;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    color: #DF6951;
+    color: var(--color-primary-9);
 }
 
 .hero-content .cta .title {
@@ -32,7 +32,7 @@
     font-size: 5.125rem;
     font-family: "Volkhov", serif;
     font-weight: 700;
-    color: #181E4B;
+    color: var(--color-primary-10);
     z-index: 2;
     line-height: 100%;
 }
@@ -46,7 +46,7 @@
 
 .hero-content .cta .sub-description {
     font-family: "Poppins", sans-serif;
-    color: #5E6282;
+    color: var(--color-primary-1);
     font-size: 0.875rem;
     width: 490px;
 }
@@ -61,7 +61,7 @@
 
 .hero-content .cta .buttons .demo {
     text-decoration: none;
-    color: #686D77;
+    color: var(--color-neutral-9);
     font-family: "Open Sans", sans-serif;
     font-size: 0.9375rem;
     font-weight: 600;

@@ -38,9 +38,9 @@ header {
 
 .navitem a {
     text-decoration: none;
-    color: #212832;
+    color: var(--color-primary-8);
     font-family: "Open Sans", sans-serif;
-    font-size: 0,9375rem;
+    font-size: 0.9375rem;
     font-weight: 600;
 
 }
@@ -57,7 +57,7 @@ header {
 }
 
 .btn-language h1 {
-    color: #212832;
+    color: var(--color-primary-8);
     font-family: "Open Sans", sans-serif;
     font-size: 0.75rem;
     font-weight: 500;
@@ -80,7 +80,7 @@ header {
 }
 
 .language-list h1 {
-    color: #212832;
+    color: var(--color-primary-8);
     font-family: "Open Sans", sans-serif;
     font-size: 0.75rem;
     font-weight: 500;
